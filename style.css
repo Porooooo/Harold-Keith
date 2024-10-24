@@ -180,37 +180,58 @@ body {
 }
 
 /* Projects Section */
-#Projects {
-    background-color: #000;
-    padding: 70px 5%;
+/* Projects Section */
+#MyProject {
+    background-color: #000; /* Background color */
+    margin: 20px auto; /* Center alignment */
+    max-width: 800px; /* Maximum width */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); /* Shadow effect */
 }
 
-.main-text h2 {
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 40px;
+.my-project-title {
+    text-align: center; /* Center alignment */
+    font-size: 60px; /* Font size for the title */
+    padding: 20px 0; /* Padding above and below the title */
 }
 
-.serv-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-    gap: 1.5rem;
+.my-project-title span {
+    color: #2c906d; /* Color for the highlighted part of the title */
 }
 
-.row img {
-    border-radius: 15px;
-    transition: transform 0.5s;
+.my-project-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
 }
 
-.layer {
-    opacity: 0;
-    transition: opacity 0.5s, height 0.5s;
+.my-project-item {
+    background-color: #1e1e1e; /* Dark background for project items */
+    border-radius: 8px; /* Rounded corners for items */
+    margin: 10px 0; /* Margin between items */
+    padding: 15px; /* Padding inside each item */
+    transition: transform 0.3s; /* Smooth transform effect */
 }
 
-.row:hover .layer {
-    opacity: 1;
-    height: 100%;
+.my-project-item:hover {
+    transform: scale(1.02); /* Scale effect on hover */
 }
+
+.my-project-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+}
+
+.my-project-item a:hover {
+    color: #2c906d; /* Color change on hover */
+}
+
+.my-project-item p {
+    margin: 0; /* Remove default margin */
+    color: aliceblue; /* Text color for project descriptions */
+    font-size: 18px; /* Font size for descriptions */
+}
+
 
 /* Certificates Section */
 #Certificate {
