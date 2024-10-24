@@ -186,7 +186,7 @@ body {
 
 /*about*/
 
-.about {
+.about-me {
     background-color: black;
     display: grid;
     grid-template-columns: repeat(2, .5fr);
