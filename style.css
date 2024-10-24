@@ -160,20 +160,6 @@ body {
     box-shadow: 0 0 5px 2c906d, 0 0 25px 2c906d, 0 0 50pc 2c906d, 0 0 100px 2c906d, 0 0 200px 2c906d;
 }
 
-.img {
-    display: inline-block;
-    left: 55%;
-    bottom: 15%;
-    margin-right: 5%;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: absolute;
-    opacity: 0;
-    animation: slideUP 1s ease forwards;
-    animation-delay: 1s;
-}
 
 .responsive {
     width: 100%;
@@ -258,6 +244,7 @@ body {
 .abtbtn-box:hover {
     box-shadow: 0 0 5px 2c906dcyan, 0 0 25px 2c906d, 0 0 50pc 2c906d, 0 0 100px 2c906d, 0 0 200px 2c906d;
 }
+
 
 /* Skills */
 #Skills {
